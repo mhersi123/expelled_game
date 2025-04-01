@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9080324993193974840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9080324993193974842}
+  - component: {fileID: 9080324993193974843}
+  - component: {fileID: 1444551738}
+  - component: {fileID: 1444551740}
+  m_Layer: 0
+  m_Name: AudioEventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9080324993193974842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080324993193974840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.33, y: 16.160936, z: 196.099}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9080324993193974843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080324993193974840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7730008c14464a4784730616f3763db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPickup: {fileID: 8300000, guid: 6bfa3a7419c4b2c4696774446d47266f, type: 3}
+  doorUnlock: {fileID: 8300000, guid: 9996f62c6fae9d64fb8ecfc6ae8904bc, type: 3}
+  doorOpen: {fileID: 8300000, guid: f424ffc8ed600b54f908926063e3a97c, type: 3}
+  doorClose: {fileID: 8300000, guid: 339b0c0fc90ef394fa295e4abc2a5cc1, type: 3}
+  heal: {fileID: 8300000, guid: f4fb7bff4bfc5da4db776291775f143a, type: 3}
+  doorLocked: {fileID: 8300000, guid: 75d17aaf9d8485f49800033665d2b5c5, type: 3}
+  buttonClick: {fileID: 8300000, guid: fc51bd82ca9fb3b439b681ab13d7a455, type: 3}
+--- !u!114 &1444551738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080324993193974840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4303852b0ec5f14fb3084cf8410d318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAttack: {fileID: 8300000, guid: 5d66380897a03a44ab3a006db64603ee, type: 3}
+  playerHit: {fileID: 8300000, guid: ce6a56e4ad3c1fe4999b1446cb01b73f, type: 3}
+--- !u!114 &1444551740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080324993193974840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a31923ba05100439cd520577bd56fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyAttack: {fileID: 8300000, guid: e1ba43ef291d85c40975eaacbadd3f68, type: 3}
+  enemyScratch: {fileID: 8300000, guid: 350065d196dccaa408ecd0b2c45fbf48, type: 3}
+  enemyLightAttack: {fileID: 8300000, guid: d784c125b4569ed4485ab5d63224c2a2, type: 3}
+  zombieIdle: {fileID: 8300000, guid: 80a398ea221846647a617e440d21c7e4, type: 3}
+  zombieAttack: {fileID: 8300000, guid: e29a110900720d643bd527b996423294, type: 3}
+  zombieChase: {fileID: 8300000, guid: f2e0172ef74027242a12e500032a5050, type: 3}
+  crawlerIdle: {fileID: 8300000, guid: f5ac2ddccd6265f40913791fb65c0f5d, type: 3}
+  crawlerCharge: {fileID: 8300000, guid: 3db977d685885f345b4e45f2d03a35d6, type: 3}
+  crawlerAttack: {fileID: 8300000, guid: 489399c6b300e464ab93a22dd765982a, type: 3}
